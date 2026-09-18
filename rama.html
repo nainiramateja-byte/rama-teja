@@ -1,0 +1,1012 @@
+అవును 👍 ప్రతి slide లో topic‌కు సరిపోయే additional realistic interior pictures add చేశాను. Cover, Living Room, Bedroom, Kitchen, Lighting & Décor, Final Design slides అన్నింటిలో picture elements ఉన్నాయి.
+
+Download Updated 7-Slide PPT 
+
+House_Interior_Design_7_Slides_With_Pictures.pptx
+Presentation
+naku webpage create chesi evvu with html and css home interior design colourful images pictures u add u create the website look like wow
+Edit
+
+Mee website ki luxury modern style kavala, leka bright colourful style kavala?
+
+Nidessa Homes
+
+Crafted for Every Day
+
+Handmade wooden handicraft with a clean, lasting finish.
+
+Ad
+More options
+home interior design website kosam html and css code evuu kalipi okedaggara
+
+ఖచ్చితంగా 👍 కింద HTML + CSS ఒకే file లో ఇచ్చాను. దీన్ని index.html గా save చేసి browser లో open చేస్తే colorful Home Interior Design website వస్తుంది. Images కూడా direct online image links తో ఉన్నాయి.
+
+Home Interior Design – HTML + CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DreamHome Interior Design</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fffaf4;
+            color: #243b3b;
+        }
+
+        /* ================= HEADER ================= */
+
+        header {
+            background: #073b3a;
+            color: white;
+            padding: 18px 7%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #ffd21f;
+        }
+
+        .logo small {
+            display: block;
+            font-size: 10px;
+            letter-spacing: 4px;
+            color: #b7d8d3;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd21f;
+        }
+
+        .quote-btn {
+            background: #ffd21f;
+            color: #073b3a;
+            padding: 12px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        /* ================= HERO ================= */
+
+        .hero {
+            min-height: 620px;
+            background:
+                linear-gradient(rgba(0, 45, 43, 0.65),
+                rgba(0, 45, 43, 0.25)),
+                url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=90");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            padding: 60px 7%;
+        }
+
+        .hero-content {
+            max-width: 650px;
+            color: white;
+        }
+
+        .hero-content h4 {
+            color: #ffd21f;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .hero-content h1 {
+            font-size: 60px;
+            line-height: 1.05;
+            margin-bottom: 20px;
+        }
+
+        .hero-content h1 span {
+            color: #ffd21f;
+        }
+
+        .hero-content p {
+            font-size: 19px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .hero-btn {
+            display: inline-block;
+            background: #ffd21f;
+            color: #073b3a;
+            padding: 15px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .hero-btn:hover {
+            transform: scale(1.08);
+            background: white;
+        }
+
+        /* ================= FEATURES ================= */
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            padding: 35px 7%;
+            background: white;
+            gap: 15px;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 20px 10px;
+            border-right: 1px solid #ddd;
+        }
+
+        .feature:last-child {
+            border: none;
+        }
+
+        .feature .icon {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .feature h3 {
+            margin-bottom: 7px;
+            color: #073b3a;
+        }
+
+        .feature p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* ================= SECTION ================= */
+
+        .section {
+            padding: 75px 7%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .section-title h2 {
+            font-size: 42px;
+            color: #073b3a;
+            margin-bottom: 10px;
+        }
+
+        .section-title span {
+            color: #f29b38;
+        }
+
+        .section-title p {
+            color: #777;
+            font-size: 17px;
+        }
+
+        /* ================= SERVICES ================= */
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 22px;
+        }
+
+        .card-content h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #073b3a;
+        }
+
+        .card-content p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .card-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #e87531;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        /* ================= ABOUT ================= */
+
+        .about {
+            background: #e9f5f1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 25px;
+            box-shadow: 10px 10px 0 #ffd21f;
+        }
+
+        .about-text h2 {
+            font-size: 42px;
+            color: #073b3a;
+            margin-bottom: 20px;
+        }
+
+        .about-text h2 span {
+            color: #f29b38;
+        }
+
+        .about-text p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .about-list {
+            list-style: none;
+        }
+
+        .about-list li {
+            margin: 14px 0;
+            font-weight: bold;
+        }
+
+        .about-list li::before {
+            content: "✓";
+            background: #073b3a;
+            color: white;
+            padding: 5px 8px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        /* ================= GALLERY ================= */
+
+        .gallery {
+            background: #073b3a;
+        }
+
+        .gallery .section-title h2 {
+            color: white;
+        }
+
+        .gallery .section-title p {
+            color: #c5d7d4;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 18px;
+            height: 260px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.12);
+        }
+
+        /* ================= TESTIMONIAL ================= */
+
+        .testimonials {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .review {
+            background: white;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border-top: 5px solid #ffd21f;
+        }
+
+        .review p {
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .review h3 {
+            color: #073b3a;
+        }
+
+        .stars {
+            color: #f5b800;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+
+        /* ================= CONTACT ================= */
+
+        .contact {
+            background: linear-gradient(135deg, #f29b38, #ffd21f);
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 45px;
+            color: #073b3a;
+            margin-bottom: 15px;
+        }
+
+        .contact p {
+            color: #073b3a;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: #073b3a;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* ================= FOOTER ================= */
+
+        footer {
+            background: #052d2c;
+            color: white;
+            padding: 45px 7% 20px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+
+        footer h2 {
+            margin-bottom: 15px;
+        }
+
+        footer h2 span {
+            color: #ffd21f;
+        }
+
+        footer h3 {
+            margin-bottom: 15px;
+            color: #ffd21f;
+        }
+
+        footer p {
+            color: #b9ccca;
+            line-height: 1.7;
+        }
+
+        footer a {
+            display: block;
+            color: #b9ccca;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+
+        footer a:hover {
+            color: #ffd21f;
+        }
+
+        .copyright {
+            text-align: center;
+            border-top: 1px solid #39605e;
+            padding-top: 20px;
+            color: #9db5b2;
+        }
+
+        /* ================= RESPONSIVE ================= */
+
+        @media (max-width: 900px) {
+
+            header {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav a {
+                margin: 5px;
+                font-size: 14px;
+            }
+
+            .hero-content h1 {
+                font-size: 45px;
+            }
+
+            .features {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .services {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .about {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .testimonials {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+
+            .hero {
+                min-height: 550px;
+            }
+
+            .hero-content h1 {
+                font-size: 38px;
+            }
+
+            .features,
+            .services,
+            .gallery-grid,
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+
+            .feature {
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .section-title h2,
+            .about-text h2,
+            .contact h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            Dream<span>Home</span>
+            <small>INTERIOR DESIGN</small>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="quote-btn">Get Free Quote</a>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h4>✨ TRANSFORM YOUR SPACE</h4>
+
+            <h1>
+                Beautiful
+                <span>Home</span>
+                Interior Design
+            </h1>
+
+            <p>
+                We create stylish, comfortable and functional
+                interiors that match your lifestyle and personality.
+            </p>
+
+            <a href="#services" class="hero-btn">
+                Explore Our Designs →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+        <div class="feature">
+            <div class="icon">🏠</div>
+            <h3>Modern Designs</h3>
+            <p>Trendy & stylish interiors</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">🌿</div>
+            <h3>Premium Quality</h3>
+            <p>Best materials & finishing</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">👨‍🎨</div>
+            <h3>Expert Team</h3>
+            <p>Creative & professional</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">⏰</div>
+            <h3>On-Time Delivery</h3>
+            <p>We value your time</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">❤️</div>
+            <h3>Happy Clients</h3>
+            <p>Your happiness matters</p>
+        </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section class="section" id="services">
+
+        <div class="section-title">
+
+            <h2>Our <span>Interior Services</span></h2>
+
+            <p>
+                Designing beautiful spaces for every part of your home
+            </p>
+
+        </div>
+
+
+        <div class="services">
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85">
+
+                <div class="card-content">
+
+                    <h3>🛋️ Living Room</h3>
+
+                    <p>
+                        Stylish living spaces designed for
+                        relaxation, entertainment and family time.
+                    </p>
+
+                    <a href="#" class="card-link">View Design →</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1615529162924-f8605388461d?auto=format&fit=crop&w=900&q=85">
+
+                <div class="card-content">
+
+                    <h3>🛏️ Bedroom</h3>
+
+                    <p>
+                        Create a peaceful and luxurious bedroom
+                        with beautiful colors and comfortable furniture.
+                    </p>
+
+                    <a href="#" class="card-link">View Design →</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85">
+
+                <div class="card-content">
+
+                    <h3>🍳 Kitchen</h3>
+
+                    <p>
+                        Smart and modern kitchens combining
+                        functionality with beautiful design.
+                    </p>
+
+                    <a href="#" class="card-link">View Design →</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=85">
+
+                <div class="card-content">
+
+                    <h3>🍽️ Dining Room</h3>
+
+                    <p>
+                        Elegant dining spaces perfect for
+                        family dinners and special moments.
+                    </p>
+
+                    <a href="#" class="card-link">View Design →</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section about" id="about">
+
+        <div>
+
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85">
+
+        </div>
+
+
+        <div class="about-text">
+
+            <h2>
+                We Make Your
+                <span>Dream Home</span>
+                Beautiful
+            </h2>
+
+            <p>
+                At DreamHome Interior Design, we believe that
+                every home should reflect the personality and
+                lifestyle of the people who live there.
+            </p>
+
+            <p>
+                Our team combines creativity, functionality and
+                premium materials to create spaces that look
+                beautiful and feel comfortable.
+            </p>
+
+            <ul class="about-list">
+
+                <li>Creative & Modern Designs</li>
+
+                <li>Premium Materials</li>
+
+                <li>Professional Designers</li>
+
+                <li>Affordable Packages</li>
+
+                <li>Complete Project Support</li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="section gallery" id="gallery">
+
+        <div class="section-title">
+
+            <h2>Interior <span>Inspiration</span></h2>
+
+            <p>
+                Explore beautiful spaces and get inspired
+                for your dream home.
+            </p>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85">
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85">
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=900&q=85">
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85">
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=900&q=85">
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=85">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= REVIEWS ================= -->
+
+    <section class="section" id="reviews">
+
+        <div class="section-title">
+
+            <h2>Happy <span>Clients</span></h2>
+
+            <p>
+                What our customers say about our interior designs
+            </p>
+
+        </div>
+
+
+        <div class="testimonials">
+
+            <div class="review">
+
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "The design team completely transformed
+                    our living room. It looks modern, colorful
+                    and extremely comfortable!"
+                </p>
+
+                <h3>Priya Sharma</h3>
+
+            </div>
+
+
+            <div class="review">
+
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "Amazing service and beautiful designs.
+                    The team understood exactly what we wanted
+                    for our new home."
+                </p>
+
+                <h3>Rohit Kumar</h3>
+
+            </div>
+
+
+            <div class="review">
+
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "Professional designers, premium quality
+                    and excellent finishing. Highly satisfied
+                    with our bedroom and kitchen."
+                </p>
+
+                <h3> Sneha Reddy</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="section contact" id="contact">
+
+        <h2>Design Your Dream Home ✨</h2>
+
+        <p>
+            Let's create a beautiful space that feels
+            uniquely yours.
+        </p>
+
+        <a href="mailto:info@dreamhome.com" class="contact-btn">
+            Get Free Consultation →
+        </a>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h2>
+                    Dream<span>Home</span>
+                </h2>
+
+                <p>
+                    Creating beautiful, comfortable and
+                    stylish interiors for modern homes.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Services</h3>
+
+                <a href="#services">Living Room</a>
+                <a href="#services">Bedroom</a>
+                <a href="#services">Kitchen</a>
+                <a href="#services">Dining Room</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>📞 +91 98765 43210</p>
+
+                <p>📧 info@dreamhome.com</p>
+
+                <p>📍 Hyderabad, India</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 DreamHome Interior Design |
+            All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+ఎలా run చేయాలి
+VS Code open చేయండి.
+index.html అనే file create చేయండి.
+పై code మొత్తం paste చేయండి.
+Save చేయండి.
+index.html ని Chrome లో open చేయండి.
+
+ఇందులో Home → Services → About → Gallery → Reviews → Contact, colorful cards, hover animations, responsive mobile design, realistic interior pictures అన్నీ ఉన్నాయి.
+
+Hatchable
+
+Build a live app from ChatGPT
+
+We give your app a live URL and everything it needs to work. Free.
+
+Ad
+More options
+
+Are you interested in this ad?
+
+Ads do not influence the answers you get from ChatGPT. Your chats stay private. 
+Learn about ads and personalization
+
+Sponsored options
+Ad
+Sponsored options
+Ad

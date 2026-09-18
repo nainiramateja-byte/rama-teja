@@ -1,0 +1,417 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaMobiles | Premium Smartphone Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <a href="#" class="logo">
+        <i class="fa-solid fa-mobile-screen-button"></i>
+        <span>Nova<span>Mobiles</span></span>
+    </a>
+
+    <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#mobiles">Mobiles</a>
+        <a href="#brands">Brands</a>
+        <a href="#offers">Offers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+        <div class="search">
+            <input type="text" placeholder="Search mobiles...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <i class="fa-regular fa-user"></i>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <b>0</b>
+        </div>
+    </div>
+</header>
+
+
+<!-- HERO SLIDER -->
+<section class="hero" id="home">
+
+    <div class="slide active">
+        <div class="hero-content">
+            <span class="eyebrow">SAMSUNG • FLAGSHIP</span>
+            <h1>Galaxy S24<br><strong>Ultra</strong></h1>
+            <p>Powerful performance. Incredible camera. Titanium design.</p>
+
+            <div class="hero-specs">
+                <span><i class="fa-solid fa-camera"></i> 200MP Camera</span>
+                <span><i class="fa-solid fa-microchip"></i> Snapdragon 8 Gen 3</span>
+                <span><i class="fa-solid fa-battery-full"></i> 5000mAh</span>
+            </div>
+
+            <a href="#mobiles" class="primary-btn">Explore Now
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=900&q=90"
+                 alt="Samsung smartphone">
+        </div>
+
+        <div class="hero-side-text">INNOVATION<br>MEETS<br>EXCELLENCE</div>
+    </div>
+
+    <div class="slide">
+        <div class="hero-content">
+            <span class="eyebrow">APPLE • PRO SERIES</span>
+            <h1>iPhone 15<br><strong>Pro Max</strong></h1>
+            <p>Designed with titanium. Built for extraordinary performance.</p>
+
+            <div class="hero-specs">
+                <span><i class="fa-solid fa-camera"></i> 48MP Camera</span>
+                <span><i class="fa-solid fa-microchip"></i> A17 Pro Chip</span>
+                <span><i class="fa-solid fa-display"></i> Super Retina XDR</span>
+            </div>
+
+            <a href="#mobiles" class="primary-btn">View Collection
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=900&q=90"
+                 alt="Apple smartphone">
+        </div>
+
+        <div class="hero-side-text">PRO<br>POWER<br>REDEFINED</div>
+    </div>
+
+    <div class="slide">
+        <div class="hero-content">
+            <span class="eyebrow">ONEPLUS • PERFORMANCE</span>
+            <h1>OnePlus<br><strong>12</strong></h1>
+            <p>Fast, smooth and powerful. Never settle for less.</p>
+
+            <div class="hero-specs">
+                <span><i class="fa-solid fa-camera"></i> 50MP Camera</span>
+                <span><i class="fa-solid fa-bolt"></i> Fast Charging</span>
+                <span><i class="fa-solid fa-battery-full"></i> 5400mAh</span>
+            </div>
+
+            <a href="#mobiles" class="primary-btn">Shop Now
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1607936854279-55e8f4c8f6f8?auto=format&fit=crop&w=900&q=90"
+                 alt="OnePlus smartphone">
+        </div>
+
+        <div class="hero-side-text">SPEED<br>WITHOUT<br>LIMITS</div>
+    </div>
+
+    <button class="arrow prev" onclick="changeSlide(-1)">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+    <button class="arrow next" onclick="changeSlide(1)">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <div class="dots">
+        <span class="dot active-dot" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+    </div>
+</section>
+
+
+<!-- QUICK FEATURES -->
+<section class="quick-features">
+    <div class="quick-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div><h3>Free Delivery</h3><p>On orders above ₹499</p></div>
+    </div>
+    <div class="quick-item">
+        <i class="fa-solid fa-shield-halved"></i>
+        <div><h3>Genuine Products</h3><p>100% original mobiles</p></div>
+    </div>
+    <div class="quick-item">
+        <i class="fa-solid fa-headset"></i>
+        <div><h3>Expert Support</h3><p>Help when you need it</p></div>
+    </div>
+    <div class="quick-item">
+        <i class="fa-solid fa-credit-card"></i>
+        <div><h3>Easy EMI</h3><p>Flexible payment options</p></div>
+    </div>
+</section>
+
+
+<!-- PRODUCTS -->
+<section class="products" id="mobiles">
+    <div class="section-title">
+        <div>
+            <span class="section-label">OUR COLLECTION</span>
+            <h2>Latest <span>Mobiles</span></h2>
+            <p>Explore smartphones from the world's leading brands.</p>
+        </div>
+        <a href="#">View All <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <span class="badge red">NEW</span>
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+            <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=600&q=85"
+                     alt="iPhone 15 Pro Max">
+            </div>
+            <div class="product-details">
+                <small>APPLE</small>
+                <h3>iPhone 15 Pro Max</h3>
+                <p>256GB • 8GB RAM • 48MP Camera</p>
+                <div class="price-row">
+                    <strong>₹1,49,900</strong>
+                    <del>₹1,59,900</del>
+                </div>
+                <button class="buy-btn">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <span class="badge green">BEST SELLER</span>
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+            <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=600&q=85"
+                     alt="Samsung Galaxy S24">
+            </div>
+            <div class="product-details">
+                <small>SAMSUNG</small>
+                <h3>Galaxy S24+</h3>
+                <p>256GB • 12GB RAM • 50MP Camera</p>
+                <div class="price-row">
+                    <strong>₹1,04,999</strong>
+                    <del>₹1,14,999</del>
+                </div>
+                <button class="buy-btn">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <span class="badge orange">HOT</span>
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+            <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1607936854279-55e8f4c8f6f8?auto=format&fit=crop&w=600&q=85"
+                     alt="OnePlus 12">
+            </div>
+            <div class="product-details">
+                <small>ONEPLUS</small>
+                <h3>OnePlus 12</h3>
+                <p>256GB • 12GB RAM • 50MP Camera</p>
+                <div class="price-row">
+                    <strong>₹69,999</strong>
+                    <del>₹74,999</del>
+                </div>
+                <button class="buy-btn">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <span class="badge red">NEW</span>
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+            <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&q=85"
+                     alt="Xiaomi smartphone">
+            </div>
+            <div class="product-details">
+                <small>XIAOMI</small>
+                <h3>Redmi Note 13 Pro+</h3>
+                <p>256GB • 12GB RAM • 200MP Camera</p>
+                <div class="price-row">
+                    <strong>₹32,999</strong>
+                    <del>₹36,999</del>
+                </div>
+                <button class="buy-btn">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <span class="badge green">POPULAR</span>
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+            <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=600&q=85"
+                     alt="Vivo smartphone">
+            </div>
+            <div class="product-details">
+                <small>VIVO</small>
+                <h3>Vivo V30 Pro</h3>
+                <p>256GB • 12GB RAM • 50MP Camera</p>
+                <div class="price-row">
+                    <strong>₹41,999</strong>
+                    <del>₹45,999</del>
+                </div>
+                <button class="buy-btn">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <span class="badge orange">DEAL</span>
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+            <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=600&q=85"
+                     alt="Realme smartphone">
+            </div>
+            <div class="product-details">
+                <small>REALME</small>
+                <h3>Realme 12 Pro+</h3>
+                <p>256GB • 12GB RAM • 50MP Camera</p>
+                <div class="price-row">
+                    <strong>₹27,999</strong>
+                    <del>₹31,999</del>
+                </div>
+                <button class="buy-btn">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- BRANDS -->
+<section class="brands" id="brands">
+    <span class="section-label">TOP BRANDS</span>
+    <h2>Shop By <span>Brands</span></h2>
+    <p>Find your favorite smartphone brand</p>
+
+    <div class="brand-list">
+        <div><i class="fa-brands fa-apple"></i><b>Apple</b></div>
+        <div><i class="fa-solid fa-mobile-screen-button"></i><b>Samsung</b></div>
+        <div><strong>1+</strong><b>OnePlus</b></div>
+        <div><strong>mi</strong><b>Xiaomi</b></div>
+        <div><strong>vivo</strong><b>Vivo</b></div>
+        <div><strong>realme</strong><b>Realme</b></div>
+        <div><strong>oppo</strong><b>Oppo</b></div>
+        <div><i class="fa-solid fa-motorcycle"></i><b>Motorola</b></div>
+    </div>
+</section>
+
+
+<!-- OFFERS -->
+<section class="offers" id="offers">
+    <div class="offer-card purple">
+        <div>
+            <small>LIMITED TIME OFFER</small>
+            <h2>Up to 50% Off</h2>
+            <p>On selected smartphones</p>
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=500&q=85"
+             alt="Smartphone offer">
+    </div>
+
+    <div class="offer-card cyan">
+        <div>
+            <small>EXCHANGE OFFER</small>
+            <h2>Upgrade Today</h2>
+            <p>Get the best value for your old phone</p>
+            <button>Know More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=85"
+             alt="Mobile exchange">
+    </div>
+
+    <div class="offer-card navy">
+        <div>
+            <small>ACCESSORIES</small>
+            <h2>Complete Your Setup</h2>
+            <p>Cases • Chargers • Earphones</p>
+            <button>Explore <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <img src="https://images.unsplash.com/photo-1609592424923-3e8e4f4c7c5c?auto=format&fit=crop&w=500&q=85"
+             alt="Mobile accessories">
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <div>
+        <span class="section-label">NEED ASSISTANCE?</span>
+        <h2>Find Your Perfect Smartphone</h2>
+        <p>Our experts are ready to help you choose the right mobile.</p>
+    </div>
+    <a href="tel:+919876543210" class="contact-btn">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-top">
+        <div class="footer-logo">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            Nova<span>Mobiles</span>
+            <p>Your Mobile. Our Priority.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#mobiles">Mobiles</a>
+            <a href="#brands">Brands</a>
+            <a href="#offers">Offers</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </div>
+
+    <div class="copyright">
+        © 2026 NovaMobiles. All Rights Reserved.
+    </div>
+</footer>
+
+
+<!-- SLIDER JAVASCRIPT -->
+<script>
+    let current = 0;
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
+
+    function showSlide(index) {
+        slides.forEach(slide => slide.classList.remove("active"));
+        dots.forEach(dot => dot.classList.remove("active-dot"));
+
+        current = (index + slides.length) % slides.length;
+
+        slides[current].classList.add("active");
+        dots[current].classList.add("active-dot");
+    }
+
+    function changeSlide(direction) {
+        showSlide(current + direction);
+    }
+
+    function goToSlide(index) {
+        showSlide(index);
+    }
+
+    setInterval(() => {
+        changeSlide(1);
+    }, 5000);
+</script>
+
+</body>
+</html>
